@@ -10,6 +10,7 @@
                  δηλαδη την κοστολογικη επιβαρυνση των εμμεσων εξοδων στα κεντρα κοστους <br/>
                 και κατεπεκταση την συνολικη απορροφηση των ΓΒΕ</em></p>
                 <p><b>Αφορα κοστολογησεις συνεχους παραγωγης</b> (Τυποποιημενα προιοντα και οχι εξατομικευμενες παραγωγες)</p>
+                
             <div id="Αμεσα Εξοδα">
 
                 <h1>Καταχωρηση Αμεσων Εξοδων</h1>
@@ -17,6 +18,9 @@
                 <input   class="editable" id="eAAYlon" type="number" placeholder="Καταχωρηστε Εξοδα" editable="true"/>
                 <p id="title">Καταχωρηση Εξοδων Αμεσων Εργατικων </p>
                 <input class="editable" id="eAErgatikon" type="number" placeholder="Καταχωρηστε Εξοδα" editable="true"/>
+                <p id="title">Καταχωρηση Ωρων Εργαζομενων </p>
+                <input class="editable" id="eVresergazomenon" type="number" placeholder="Καταχωρηστε Ωρες" editable="true"/>
+                
             </div>
 
             <div id="Εμμεσα Εξοδα">
@@ -33,20 +37,23 @@
                 <p id="title">Καταχωρηση Αποσβεσεων</p>
                 <input class="editable" id="eEAposvesis" type="number" placeholder="Καταχωρηστε Εξοδα" editable="true"/>
             </div>
+           
+                
+            
             <button type="button" id="btn" onclick="Calculate()"  > Υπολογισμος</button>
         </section>
 
         <section class="sections" id="sectionB">
             <h1>Αποτελεσματα</h1>
-            <p id="title1">Μοναδες Παραγωγης : 
-            <rectangle id="MonadesParagogis">Αποτελεσμα</rectangle></p>
+            <p>Η Βαση Καταλογισμου Επιλεγετε Απο την Διοικηση της Επιχειρησης</p>
+            <p id="title1">Ωρες Αμεσης Εργασιας : 
+            <rectangle id="Avresamesisergasias">Αποτελεσμα</rectangle>  </p>
 
             <p id="title1">Κοστος Α Υλων : 
-            <rectangle id="KostosAYlon">Αποτελεσμα</rectangle> </p>
+            <rectangle id="AKostosAYlon">Αποτελεσμα</rectangle> </p>
             <p id="title1">Κοστος Αμεσης Εργασιας : 
-            <rectangle id="KostosAmesisErgasias">Αποτελεσμα</rectangle> </p>
-            <p id="title1">Ωρες Αμεσης Εργασιας :
-            <rectangle id="Vres Amesis Ergasias">Αποτελεσμα</rectangle> </p>
+            <rectangle id="AKostosAmesisErgasias">Αποτελεσμα</rectangle> </p>
+            
         </section>
         <script src="index.js"></script>
     </body>
